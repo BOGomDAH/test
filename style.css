@@ -1,5 +1,28 @@
 :root {
-    
+    /* custom colors */
+    --app-bg: #0f1923;
+    --main-bg: #171c2c;
+    --secondary-bg: #1d2730;
+    --tertiary-bg: #212531;
+    --primary-bg: #f87f05;
+    --head-block-bg: #1d2730;
+
+    --main-color: #fff;
+    --secondary-color: #b82222;
+    --tertiary-color: #f2f2f2;
+    --brand-color: #f8ad16;
+    --color-in-primary-bg: #fff;
+
+    --border-color: rgba(255, 255, 255, 0.102);
+    --input-bg: #1d2730;
+    /*  */
+
+    --eventAccent: var(--secondary-bg) !important;;
+
+    --font-size-XS: 12px !important;
 }
 
+.ai_odd:not(:first-child) .ai_odd_inner {
+    border-left: 1px solid var(--border-color) !important;
+}
 
