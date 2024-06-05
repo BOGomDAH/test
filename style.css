@@ -1,0 +1,168 @@
+:root {
+    /* custom colors */
+    --app-bg: #0f1923;
+    --main-bg: #171c2c;
+    --secondary-bg: #1d2730;
+    --tertiary-bg: #212531;
+    --primary-bg: #f87f05;
+    --head-block-bg: #1d2730;
+
+    --main-color: #bbb;
+    --secondary-color: #fff;
+    --tertiary-color: #f2f2f2;
+    --brand-color: #f8ad16;
+    --color-in-primary-bg: #fff;
+
+    --border-color: rgba(255, 255, 255, 0.102);
+    --input-bg: #1d2730;
+    /*  */
+
+    --bodyBg: var(--app-bg) !important;
+    --bodyTxt: var(--main-color) !important;
+
+    --bodyBg2: var(--main-bg) !important;
+    --bodyTxt2: var(--main-color) !important;
+
+    --navbarG: var(--secondary-bg) !important;
+    --navbarTxt2: var(--main-color) !important;
+    --navbarAccent: var(--brand-color) !important;
+
+    --sliderG: var(--tertiary-bg) !important;
+    --sliderTxt2: var(--main-color) !important;
+    --sliderBg: var(--secondary-bg) !important;
+    --sliderAccent: var(--brand-color) !important;
+
+    --headerBg: var(--secondary-bg) !important;
+    --headerBg2: var(--border-color) !important;
+    --headerTxt: var(--tertiary-color) !important;
+    --headerG: var(--secondary-bg) !important; /* d */
+    --headerTxt2: var(--tertiary-color) !important; /* d */
+    --headerBorder: var(--border-color) !important; /* d */
+
+    --tabBg: var(--secondary-bg) !important;
+    --tabTxt2: var(--main-color) !important;
+    --tabBg2: var(--tabBg) !important;
+    --tabTxt: var(--color-in-primary-bg-color) !important;
+    --tabAccent: var(--brand-color) !important;
+
+    --tabG: var(--secondary-bg) !important;
+    --tabActiveG: var(--primary-bg) !important;
+    --tabActiveTxt: var(--color-in-primary-bg) !important;
+
+    --menu_2G: var(--head-block-bg) !important;
+    --menu_2Border: var(--border-color) !important;
+    --menu_2Txt: var(--tertiary-color) !important;
+
+    --menu_3G: var(--secondary-bg) !important;
+    --menu_3Border: var(--border-color) !important;
+    --menu_3Txt: var(--tertiary-color) !important;
+    --menu_3BgHover: var(--head-block-bg) !important; /* d */
+    --menu_3Txt2: var(--main-color) !important; /* d */
+
+    --menu_1Bg: var(--secondary-bg) !important;
+    --menu_1Txt2: var(--tertiary-color) !important;
+    --menu_1G: var(--secondary-bg) !important; /* d */
+    --menu_1BgHover: var(--tertiary-bg) !important; /* d */
+    --menu_1Txt: var(--tertiary-color) !important; /* d */
+    --menu_1Border: var(--border-color) !important; /* d */
+
+    --subHeaderG: var(--head-block-bg) !important;
+    --subHeaderBorder: var(--border-color) !important;
+    --subHeaderTxt2: var(--secondary-color) !important;
+
+    --marketHeaderG: var(--secondary-bg) !important;
+    --marketHeaderBorder: var(--border-color) !important;
+    --marketHeaderTxt: var(--tertiary-color) !important;
+
+    --dominantBg: var(--secondary-bg) !important;
+    --dominantBg2: var(--secondary-bg) !important;
+    --dominantTxt: var(--tertiary-color) !important;
+    --dominantBg3: var(--tertiary-bg) !important; /* d */
+
+    --filterBg: var(--head-block-bg) !important;
+    --filterBgHover: var(--head-block-bg) !important;
+    --filterBg2: var(--head-block-bg) !important;
+    --filterTxt: var(--tertiary-color) !important;
+    --filterG: var(--tertiary-bg) !important; /* d */
+
+    --collapseBg: var(--tertiary-bg) !important;
+    --collapseTxt2: var(--main-color) !important;
+
+    --eventBg: var(--tertiary-bg) !important;
+    --eventTxt: var(--secondary-color) !important;
+    --eventTxt2: var(--secondary-color) !important;
+    --eventBg2Hover: var(--eventBg) !important;
+    --eventG: var(--tertiary-bg) !important; /* d */
+    --eventBgHover: var(--secondary-bg) !important; /* d */
+    --eventBg2: var(--tertiary-bg) !important; /* d */
+    --eventBg3: var(--head-block-bg) !important; /* d */
+    --showMoreG: var(--secondary-bg) !important; /* d */
+    --showMoreBg2: var(--tertiary-bg) !important; /* d */
+    --showMoreTxt: var(--secondary-color) !important; /* d */
+    --showMoreBorder: var(--border-color) !important; /* d */
+
+    --oddG: var(--head-block-bg) !important;
+    --oddText: var(--brand-color) !important;
+    --oddActiveG: var(--primary-bg) !important;
+    --oddActiveTxt: var(--color-in-primary-bg) !important;
+    --oddActiveTxt2: var(--color-in-primary-bg) !important;
+    --oddBg2: var(--border-color) !important;
+    --oddActiveBg2: var(--border-color) !important;
+    --oddBorder: var(--head-block-bg) !important; /* d */
+    --oddActiveBorder: var(--head-block-bg) !important; /* d */
+    --oddTxt: var(--brand-color) !important; /* d */
+
+    --inputBg: var(--input-bg) !important;
+    --inputTxt2: var(--main-color) !important;
+    --inputBg2: var(--head-block-bg) !important;
+    --inputTxt: var(--main-color) !important;
+    --inputG: var(--input-bg) !important;
+    --inputSecondaryG: var(--input-bg) !important; /* d */
+    --inputSecondaryTxt: var(--main-color) !important; /* d */
+    --inputSecondaryBg2: var(--secondary-bg) !important; /* d */
+
+    /* betslip */
+    --triggerBg: var(--primary-bg) !important;
+    --triggerTxt: var(--color-in-primary-bg) !important;
+    --triggerBadgeBg: var(--tertiary-bg) !important;
+
+    --tabSecondaryActiveBg: var(--secondary-bg) !important;
+    --tabSecondaryActiveTxt: var(--secondary-color) !important;
+
+    --singleBodyBg: var(--main-bg) !important;
+    --singleHeaderBg: var(--secondary-bg) !important;
+    --singleHeaderTxt: var(--secondary-color) !important;
+
+    --singleInputBg: var(--input-bg) !important;
+    --inputBorder: var(--border-color) !important;
+    --inputBg2: var(--secondary-bg) !important;
+    --inputAccent: var(--brand-color) !important;
+
+    --buttonSecondaryBg: var(--secondary-bg) !important;
+    --buttonSecondaryBg3: var(--border-color) !important;
+    --buttonSecondaryTxt: var(--secondary-color) !important;
+
+    --tabTxt: var(--secondary-color) !important;
+
+    --singleKeyboardBg: var(--secondary-bg) !important;
+    --singleKeyboardBtn: var(--head-block-bg) !important;
+
+    --bodyBgHover: var(--border-color) !important;
+    --eventBg: var(--tertiary-bg) !important;
+    --eventTxt: var(--main-color) !important;
+
+    --buttonG: var(--primary-bg) !important;
+    --buttonTxt: var(--color-in-primary-bg) !important;
+
+    --modalBg: var(--main-bg) !important; /* d */
+    --modalBg2: var(--tertiary-bg) !important; /* d */
+    --modalTxt: var(--main-color) !important; /* d */
+    --accentBg: var(--brand-color) !important; /* d */
+
+    --font-size-XS: 12px !important;
+}
+
+.ai_odd:not(:first-child) .ai_odd_inner {
+    border-left: 1px solid var(--border-color) !important;
+}
+
