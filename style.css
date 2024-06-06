@@ -26,8 +26,8 @@
     --fliptimer-c: var(--secondary-color) !important;
 
     --oddAccent: var(--secondary-color) !important;
-    --fliptimer-c:
-    --fliptimer-c:
+    --buttonTxt: var(--main-color) !important;
+    --buttonG: var(--secondary-color) !important;
 
         
     --font-size-XS: 12px !important;
