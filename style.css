@@ -33,6 +33,11 @@
     --font-size-XS: 12px !important;
 }
 
+.tab_selector_active .tg__badge_live {
+    background: #fff;
+    color: #b82322;
+}
+
 .ai_odd:not(:first-child) .ai_odd_inner {
     border-left: 1px solid var(--border-color) !important;
 }
