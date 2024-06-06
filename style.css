@@ -13,7 +13,7 @@
     --eventAccentTxt: var(--main-color) !important;
     --accentBg: var(--secondary-color) !important;
     --tabActiveG: var(--secondary-color) !important;
-    --tabAccent: var(--secondary-color) !important;
+    --tabActiveTxt: var(--main-color) !important;
 
     --font-size-XS: 12px !important;
 }
@@ -21,4 +21,3 @@
 .ai_odd:not(:first-child) .ai_odd_inner {
     border-left: 1px solid var(--border-color) !important;
 }
-
