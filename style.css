@@ -13,6 +13,7 @@
     --eventAccentTxt: var(--main-color) !important;
     --accentBg: var(--secondary-color) !important;
     --tabActiveG: var(--secondary-color) !important;
+    --tabAccent: var(--secondary-color) !important;
 
     --font-size-XS: 12px !important;
 }
