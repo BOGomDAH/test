@@ -14,7 +14,22 @@
     --accentBg: var(--secondary-color) !important;
     --tabActiveG: var(--secondary-color) !important;
     --tabActiveTxt: var(--main-color) !important;
+    --oddTxt: var(--secondary-color) !important;
+    --oddActiveBorder: var(--secondary-color) !important;
+    --oddActiveG: var(--secondary-color) !important;
+    --oddActiveTxt: var(--main-color) !important;
+    --menu_3Accent: var(--secondary-color) !important;
+    --collapseAccent: var(--secondary-color) !important;
 
+    --sliderAccent: var(--secondary-color) !important;
+    --navbarAccent: var(--secondary-color) !important;
+    --fliptimer-c: var(--secondary-color) !important;
+
+    --oddAccent: var(--secondary-color) !important;
+    --fliptimer-c:
+    --fliptimer-c:
+
+        
     --font-size-XS: 12px !important;
 }
 
