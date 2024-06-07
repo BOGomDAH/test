@@ -1,3 +1,8 @@
+#sport-mobile,
+#sport-mobile [data-theme='light'],
+#sport-mobile[data-theme='light'],
+#sport-mobile [data-theme='dark'],
+#sport-mobile[data-theme='dark'],
 :root {
     /* custom colors */
     --main-color: #fff;
@@ -12,10 +17,15 @@
     --eventAccent: var(--secondary-color) !important;
     --eventAccentTxt: var(--main-color) !important;
     --accentBg: var(--secondary-color) !important;
+    --tabBg2: var(--secondary-color) !important;
+    --tabTxt: var(--main-color) !important;
+    --tabTxt2: var(--secondary-color) !important;
     --tabActiveG: var(--secondary-color) !important;
+    --tabActiveBg: var(--secondary-color) !important;
     --tabActiveTxt: var(--main-color) !important;
     --oddTxt: var(--secondary-color) !important;
     --oddActiveBorder: var(--secondary-color) !important;
+    --oddActiveBg: var(--secondary-color) !important;
     --oddActiveG: var(--secondary-color) !important;
     --oddActiveTxt: var(--main-color) !important;
     --menu_3Accent: var(--secondary-color) !important;
@@ -24,12 +34,14 @@
     --sliderAccent: var(--secondary-color) !important;
     --navbarAccent: var(--secondary-color) !important;
     --fliptimer-c: var(--secondary-color) !important;
+    --tabAccent: var(--secondary-color) !important;
 
     --oddAccent: var(--secondary-color) !important;
+    --eventOddFactorTxt: var(--secondary-color) !important;
     --buttonTxt: var(--main-color) !important;
     --buttonG: var(--secondary-color) !important;
 
-        
+
     --font-size-XS: 12px !important;
 }
 
