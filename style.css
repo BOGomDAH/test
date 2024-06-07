@@ -18,7 +18,7 @@
     --eventAccentTxt: var(--main-color) !important;
     --accentBg: var(--secondary-color) !important;
     --tabBg2: var(--secondary-color) !important;
-    --tabTxt: var(--main-color) !important;
+    --tabTxt: var(--secondary-color) !important;
     --tabTxt2: var(--secondary-color) !important;
     --tabActiveG: var(--secondary-color) !important;
     --tabActiveBg: var(--secondary-color) !important;
@@ -30,6 +30,8 @@
     --oddActiveTxt: var(--main-color) !important;
     --menu_3Accent: var(--secondary-color) !important;
     --collapseAccent: var(--secondary-color) !important;
+
+    --dominantTxt: var(--secondary-color) !important;
 
     --sliderAccent: var(--secondary-color) !important;
     --navbarAccent: var(--secondary-color) !important;
