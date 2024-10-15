@@ -1,57 +1,16 @@
-#sport-mobile,
-#sport-mobile [data-theme='light'],
-#sport-mobile[data-theme='light'],
-#sport-mobile [data-theme='dark'],
-#sport-mobile[data-theme='dark'],
+body.theme-light {
+  // base
+  --brand: #08af72 !important;
+  --brand-hover: #0bdd90 !important;
+  --brand-color: #2d674b !important;
+  --brand-icon-color: #2d674b !important;
+
+  background: red !important;
+}
+
 :root {
-    /* custom colors */
-    --main-color: #fff;
-    --secondary-color: #b82222;
-
-    --border-color: rgba(255, 255, 255, 0.102);
-    /*  */
-
-    --triggerTxt: var(--main-color) !important;
-    --triggerBg: var(--secondary-color) !important;
-    --bodyAccent: var(--secondary-color) !important;
-    --eventAccent: var(--secondary-color) !important;
-    --eventAccentTxt: var(--main-color) !important;
-    --accentBg: var(--secondary-color) !important;
-    --tabBg2: var(--secondary-color) !important;
-    --tabTxt: var(--secondary-color) !important;
-    --tabTxt2: var(--secondary-color) !important;
-    --tabActiveG: var(--secondary-color) !important;
-    --tabActiveBg: var(--secondary-color) !important;
-    --tabActiveTxt: var(--main-color) !important;
-    --oddTxt: var(--secondary-color) !important;
-    --oddActiveBorder: var(--secondary-color) !important;
-    --oddActiveBg: var(--secondary-color) !important;
-    --oddActiveG: var(--secondary-color) !important;
-    --oddActiveTxt: var(--main-color) !important;
-    --menu_3Accent: var(--secondary-color) !important;
-    --collapseAccent: var(--secondary-color) !important;
-
-    --dominantTxt: var(--secondary-color) !important;
-
-    --sliderAccent: var(--secondary-color) !important;
-    --navbarAccent: var(--secondary-color) !important;
-    --fliptimer-c: var(--secondary-color) !important;
-    --tabAccent: var(--secondary-color) !important;
-
-    --oddAccent: var(--secondary-color) !important;
-    --eventOddFactorTxt: var(--secondary-color) !important;
-    --buttonTxt: var(--main-color) !important;
-    --buttonG: var(--secondary-color) !important;
-
-
-    --font-size-XS: 12px !important;
-}
-
-.tab_selector_active .tg__badge_live {
-    background: #fff;
-    color: #b82322;
-}
-
-.ai_odd:not(:first-child) .ai_odd_inner {
-    border-left: 1px solid var(--border-color) !important;
+  --brand: #08af72 !important;
+  --brand-hover: #0bdd90 !important;
+  --brand-color: #2d674b !important;
+  --brand-icon-color: #2d674b !important;
 }
